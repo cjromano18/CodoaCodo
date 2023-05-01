@@ -12,7 +12,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Conf Bs As</a>
+                    <a class="navbar-brand" href="#"><img src="img/codoacodo.png" alt="" height="45"> Bs As</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -116,30 +116,54 @@
         <h6 class="text-center mt-3">CONVIÉRTE EN UN</h6>
         <h4 class="text-center mb-3">ORADOR</h4>
         <h6 class="text-center mt-3">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h6>
-        <div class="container">
-            <form>
-                  <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Disabled input</label>
-                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+        <div class="container ">
+            <form class="row">
+                  <div class="mb-3 col-6">
+                    <label for="Nombre" class="form-label"></label>
+                    <input type="text" id="Nombre" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="mb-3 col-6">
+                    <label for="Apellido" class="form-label"></label>
+                    <input type="text" id="Apellido" class="form-control" placeholder="Apellido">
                   </div>
                   <div class="mb-3">
-                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                    <select id="disabledSelect" class="form-select">
-                      <option>Disabled select</option>
-                    </select>
+                    <textarea class="form-control" name="Mensaje" id="" cols="30" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+                    <label for="Mensaje">Recuerda incluir un título para tu charla</label>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                      <label class="form-check-label" for="disabledFieldsetCheck">
-                        Can't check this
-                      </label>
-                    </div>
-                  </div>
-                  <button type="submit" class="btn btn-success">Enviar</button>
+                  <button type="submit" id="enviar" class="btn">Enviar</button>
               </form>
         </div>
     </section>
+    <footer class="text mt-4 py-3 bg-gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    Preguntas frecuentes
+                  </div>
+                  <div class="col">
+                    Contáctanos
+                  </div>
+                  <div class="col">
+                    Prensa
+                  </div>
+                  <div class="col">
+                    Conferencias
+                  </div>
+                  <div class="col">
+                    Términos y condiciones
+                  </div>
+                  <div class="col">
+                    Prensa
+                  </div>
+                  <div class="col">
+                    Privacidad
+                  </div>
+                  <div class="col">
+                    Estudiantes
+                  </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
