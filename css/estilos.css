@@ -2,23 +2,26 @@ header {
     background-color: black;
 }
 
-
+body{
+    overflow-x: hidden;
+}
+.navbar-expand-lg{
+    background-color: #353a40;
+}
 .buenosaires {
     text-align: justify;
 }
+
 
 .carousel-caption {
     text-align: right;
 }
 
-#enviar {
-    background-color: rgb(103, 158, 0);
-    color: white;
+.btn-success{
+    background-color: #29a744;
 }
 
-footer {
-background-color: #2a3d86;
-color: white;
-width: 100%;
-
+#enviar {
+    background-color:#96c93e;
+    color: white;
 }
