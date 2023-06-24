@@ -2,9 +2,29 @@ header {
     background-color: black;
 }
 
-body{
+html, body{
     overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a323f; /* Color de fondo del footer */
+  }
+
+  .custom-btn-width {
+    width: 500px; 
+  }
+  
+  .row {
+    margin: 0; /* Elimina los márgenes predeterminados de la clase .row */
+  }
+
 .navbar-expand-lg{
     background-color: #353a40;
 }
